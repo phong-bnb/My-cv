@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+icon{display: flex;
+}
+body{
+    background-image: url("https://techlead-training.web.app/bg.280cef1c.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto,sans-serif
+}
+
+.main{
+    display: flex;
+    gap: 40px;
+
+}
+
+ul ,li {
+    padding: 0;
+    list-style: none;
+}
+#header1{
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+        background-color: white;
+    height: 68px;
+    margin-top: 60px;
+    box-shadow: 2px 2px  antiquewhite;
+    justify-content: space-between;
+}
+
+#logo {
+    text-decoration: none;
+    display: inline-flex; /* Sử dụng inline-flex để các phần tử con nằm cùng một hàng */
+    align-items: flex-start;
+    border-radius: 5px;
+
+}
+.sendmail{
+    background: #ffc500!important;
+    border: 0;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #000!important;
+    float: right;
+    font-weight: 300;
+    height: 40px;
+    margin-right: 10px;
+    padding: 0 24px;
+    text-decoration: none;
+    vertical-align: baseline;
+    line-height: 45px;
+    transition: all .4s;
+}
+.sendmail i{
+    background: #fff;
+    border-radius: 50px;
+    width: 27px;
+    height: 27px;
+    margin-left: 15px;
+    font-size: 11px;
+}
+
+#logo i {
+    float: left;
+    border-radius: 6px 0 0 6px;
+    height: 70px;
+    margin-right: 10px;
+    padding: 0 24px;
+    line-height: 77px;
+    transition: all .4s;
+
+    background-color: #ffc500!important;
+}
+
+
+#nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.icon a i {
+
+    padding: 10px 15px;
+}
+#nav li a:hover{
+    color: #ffc500;
+}
+.icon a i:hover{
+    color: #ffc500;
+}
+#navbar{
+    display: flex;
+    border-radius: 5px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    top: 68px;
+    margin-left: 60px;
+    width: 20%;
+
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    vertical-align: inherit
+}
+.profile-name{
+    padding: 20px;
+    line-height: 18px;
+
+}
+.proimage img {
+    display: flex;
+    clip-path: polygon(0 9%,100% 0,100% 94%,0% 100%);
+    width: 100%;
+}
+.anhcaikinh{
+    color: #787878;
+    border-left: 2px solid #eee;
+    padding: 0 0 24px 19px;
+    font-size: 14px;
+    text-align: center;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+.job{
+    color: #787878;
+}
+.profileUserNavbar{
+    color: #787878;
+    border-left: 2px solid #eee;
+    padding: 0 0 24px 19px;
+    font-size: 14px;
+    text-align: center;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+.anhcaikinh::after {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    background-color: #ffc500;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -48px;
+}
+.profileUserNavbar::after{
+    content: "";
+    background: #fff;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    margin-left: -25px;
+    display: block;
+    margin-top: -15px;
+}
+.center{
+    display: flex;
+   flex-direction:  column;
+}
