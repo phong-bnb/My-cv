@@ -5,6 +5,13 @@
 }
 icon{display: flex;
 }
+.cbp-item-wrapper:hover .test{
+display: block;
+
+}
+.test{
+    display:none;
+}
 
 body{
     background-image: url("https://techlead-training.web.app/bg.280cef1c.png") ;
@@ -341,6 +348,25 @@ footer .footer {
 .ul-of-working li .line-title {
     font-size: 16px;
     line-height: 8px;
+}
+
+.cbp-item-wrapper{
+    position: relative;
+}
+.cbp-item-wrapper:hover .test{
+    display: block;
+    transition: height 2s;
+
+}
+.test{
+    display: none;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.test i {
+    color: dodgerblue;
+    font-size: 40px;
 }
 .ul-of-working li span{
     padding: 12px 0;
